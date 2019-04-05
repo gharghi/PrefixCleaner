@@ -1,7 +1,7 @@
 import urllib.request, json, getpass, requests, untangle
 
 prefix = input("Please enter Prefix: ")
-type = input("Please enter Type: ")
+type = input("Please enter Type(all/domain/route): ")
 password = getpass.getpass()
 
 def find_objects(prefix,type, all_flag, password = password):
